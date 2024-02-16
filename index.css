@@ -1,0 +1,68 @@
+.main-container {
+  font-family: "roboto";
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.heading-div {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  margin-left: 35px;
+}
+
+.name {
+  font-style: normal;
+}
+
+.elements-div {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.element {
+  margin-left: 10px;
+}
+
+.icon-div {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: auto;
+}
+.icon {
+  border: 1px solid black;
+  font-size: 15px;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  height: 30px;
+  border-radius: 8px;
+  width: 300px;
+}
+.mid-part {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: row;
+}
